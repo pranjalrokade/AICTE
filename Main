@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class Main
+{
+public static void main(String [ ] args)
+{
+Scanner sc = new Scanner(System.in) ;
+System.out.println("Enter num1: ") ;
+double num1 = sc.nextDouble() ;
+System.out.println(" Enter num2: ") ;
+double num2 = sc.nextDouble() ;
+System.out.println(" Enter Addition  :"+(num1+num2)) ;
+System.out.println("Enter Subtraction  :"+(num1 - num2)) ;
+System.out.println("Enter Multiplication :"+(num1* num2)) ;
+if(num2 == 0)
+{
+System.out.println("Don't perform division.Show an error message ") ;
+}
+else
+{
+System.out.println("Enter Division  :"+(num1 / num2)) ;
+}
+}
+}
